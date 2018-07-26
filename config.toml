@@ -1,0 +1,42 @@
+## Basic Configuration
+baseurl = "https://lanchongyizu.github.io/"
+languageCode = "en-us"
+
+theme = "hyde"
+
+## Hugo Built-in Features
+disqusShortname = "lanchongyizu"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+## Site Settings
+[params]
+    author = "Jamie Zhuang"
+    title = "Jamie Zhuang's Blog"
+    description = "Read Write Build"
+    avatar = "/img/avatar.png"
+    # layoutReverse = true
+    # sidebarSticky = true
+    themeColor = "theme-base-08"
+
+## Social Accounts
+[params.social]
+    github = "lanchongyizu"
+    # instagram = "<username>"
+    linkedin = "lanchongyizu"
+    twitter = "lanchongyizu"
+    # facebook = "<username>"
+    # stackoverflow = "<username>"
+    email = "lanchongyizu@gmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
